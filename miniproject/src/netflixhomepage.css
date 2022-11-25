@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+    
+}
+#backimg{
+    background: url("/images/background.jpg");
+    background-size: cover;
+    height:730px;
+    border-bottom: 9px solid #222;
+
+}
+.background{
+    background: rgb(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8), transparent 60%, rgba(0,0,0,.8));
+    height: 100%;
+}
+.header header{
+    padding: 26px 56px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.header svg{
+    height:  40px;
+    fill: #e50914;
+    
+}
+.header div+div{
+    text-align: right;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color:#e50914 ;
+    padding: 7px 17px;
+    border-radius: 3px;
+}
+.header header select{
+    background: transparent;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin-right: 15px;
+    
+   
+    
+}
+.selectlogo{
+    display: inline-block;
+    padding-left: 13px 35px;
+    margin-right: 20px;
+    
+}
+.selectlogo svg{
+    fill: white;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    
+}
+.formcontent{
+    text-align: center;
+    padding: 75px 20px;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+.formcontent h1{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.formcontent p{
+    font-size: 1.625rem;
+
+}
+.form{
+    display: flex;
+    margin-left: 20px;
+}
+h3{
+    margin-bottom: 20px;
+    font-weight:100;
+}
+.form div{
+    width: 500px;
+    height: 70px;
+}
+.form input{
+    height: 100%;
+    width: 100%;
+}
+
